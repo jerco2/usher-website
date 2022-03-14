@@ -2,6 +2,6 @@
 [![ReactJS](https://badgen.net/badge/icon/ReactJS?icon=atom&label)](https://https://reactjs.org/)
 [![Boostrap](https://badgen.net/badge/v5/Bootstrap/purple)](https://getbootstrap.com/)
 
-# usher-tech-landingpage
+# usher-technologies
 
 This project is for intended for learning purposes only. Some materials used are property of Usher Technologies. ©USHER Technologies
