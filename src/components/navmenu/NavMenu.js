@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import NavLink from "./NavLink";
 import USHER_LOGO from "../../assets/usher/USHER_LOGO.png";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { IoMdClose } from "react-icons/io";
 import "./Nav.css";
 
 function NavMenu() {
+  const [showNav, setShownav] = useState(false);
+  const toggleNav = () => setShownav(!showNav);
+
   return (
     <nav
       className={`navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top`}
@@ -23,12 +28,13 @@ function NavMenu() {
         </div>
 
         <button
-          className={`navbar-toggler`}
+          className={`navbar-toggler text-light`}
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navmenu"
+          onClick={toggleNav}
         >
-          <span className={`navbar-toggler-icon`}></span>
+          {!showNav ? <GiHamburgerMenu /> : <IoMdClose />}
         </button>
 
         <div className={`collapse navbar-collapse`} id="navmenu">

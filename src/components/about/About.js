@@ -1,5 +1,7 @@
 import React from "react";
 import undraw_real_time_analytics_re_yliv from "../../assets/undraw-images/undraw_real_time_analytics_re_yliv.svg";
+import { FaArrowRight } from "react-icons/fa";
+import "./About.css";
 
 function About() {
   return (
@@ -23,6 +25,18 @@ function About() {
               ensures safety of people and properties before, during and after a
               strong earthquake.
             </p>
+            <br />
+            <a
+              className={`text-dark text-deco-none font-bold p-3 border`}
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.dpwh.gov.ph/DPWH/sites/default/files/RulesonEarthquake_Accelerograph.pdf"
+            >
+              Check the DPWH guidelines{" "}
+              <span className={`d-none d-sm-inline`}>
+                <FaArrowRight />
+              </span>
+            </a>
           </div>
         </div>
       </div>

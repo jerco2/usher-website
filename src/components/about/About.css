@@ -1,0 +1,15 @@
+.text-deco-none {
+  text-decoration: none;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.bg-custom-white {
+  background-color: #ededed;
+}
