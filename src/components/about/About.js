@@ -5,7 +5,7 @@ import "./About.css";
 
 function About() {
   return (
-    <section className={`p-5`}>
+    <section className={`py-50`}>
       <div className={`container`}>
         <div className={`row align-items-center justify-content-between g-4`}>
           <div className={`col-md d-flex justify-content-center`}>
@@ -27,7 +27,7 @@ function About() {
             </p>
             <br />
             <a
-              className={`text-dark text-deco-none font-bold p-3 border`}
+              className={`text-dark text-deco-none font-bold p-3 border text-nowrap`}
               target="_blank"
               rel="noreferrer"
               href="https://www.dpwh.gov.ph/DPWH/sites/default/files/RulesonEarthquake_Accelerograph.pdf"

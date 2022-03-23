@@ -2,7 +2,7 @@ import "./App.css";
 import NavMenu from "./components/navmenu/NavMenu";
 import Showcase from "./components/showcase/Showcase";
 import About from "./components/about/About";
-import Product from "./components/products/Product";
+import Products from "./components/products/Products";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <NavMenu />
       <Showcase />
       <About />
-      <Product />
+      <Products />
     </div>
   );
 }

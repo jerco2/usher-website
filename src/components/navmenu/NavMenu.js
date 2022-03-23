@@ -11,7 +11,7 @@ function NavMenu() {
 
   return (
     <nav
-      className={`navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top`}
+      className={`navbar navbar-expand-lg bg-usher-blue navbar-dark py-3 fixed-top`}
     >
       <div className={`container`}>
         <div className={`d-flex align-items-center`}>

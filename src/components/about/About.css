@@ -13,3 +13,8 @@
 .bg-custom-white {
   background-color: #ededed;
 }
+
+.py-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
