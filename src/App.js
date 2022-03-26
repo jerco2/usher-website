@@ -20,7 +20,11 @@ function App() {
   };
   return (
     <MenuTogglerContextProvider>
-      <div className={`overflow-x-hidden`} onWheel={onScroll}>
+      <div
+        className={`overflow-x-hidden`}
+        onWheel={onScroll}
+        onTouchMove={onScroll}
+      >
         <NavMenu
           product={product}
           navChange={navChange}
