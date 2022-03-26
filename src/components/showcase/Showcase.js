@@ -5,7 +5,7 @@ import "./Showcase.css";
 function Showcase() {
   return (
     <section
-      className={`bg-usher-blue text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start`}
+      className={`bg-usher-green text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start`}
     >
       <div className={`container`}>
         <div className={`d-sm-flex align-items-center justify-content-between`}>

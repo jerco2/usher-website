@@ -15,11 +15,11 @@ function About() {
               alt=""
             />
           </div>
-          <div className={`col-md p-sm-5`}>
+          <div className={`col-md p-5 text-center d-flex flex-column`}>
             <h1>WHAT IS USHER?</h1>
             <p>
-              USHER is an Earthquake Recording Instrument that is more than
-              compliant with the DPWH guidelines.
+              USHER provides an Earthquake Recording Instrument that is more
+              than compliant with the DPWH guidelines.
               <br />
               <br />A 24/7 building structure health monitoring system that
               ensures safety of people and properties before, during and after a
@@ -27,13 +27,13 @@ function About() {
             </p>
             <br />
             <a
-              className={`text-dark text-deco-none font-bold p-3 border text-nowrap`}
+              className={`text-dark text-deco-none font-bold p-3 border `}
               target="_blank"
               rel="noreferrer"
               href="https://www.dpwh.gov.ph/DPWH/sites/default/files/RulesonEarthquake_Accelerograph.pdf"
             >
               Check the DPWH guidelines{" "}
-              <span className={`d-none d-sm-inline`}>
+              <span className={``}>
                 <FaArrowRight />
               </span>
             </a>

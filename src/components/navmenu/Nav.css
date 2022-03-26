@@ -1,7 +1,89 @@
+/* -------- backgrounds ----------------- */
+.bg-usher-blue {
+  background-color: #498ecf;
+}
+.bg-usher-gradient {
+  background: linear-gradient(-35deg, #2489e7, #0aa338);
+}
+.bg-none {
+  background: rgba(0, 0, 0, 0);
+}
+
+/* --------- opactiy ----------- */
+
+.opacity-20 {
+  opacity: 80%;
+}
+
+/* -------- transition ------------ */
+.transition {
+  transition: all 0.75s ease;
+}
+.transition-fast {
+  transition: all 0.25s ease;
+}
+
+/* ------ others ----------- */
+.cursor-pointer:hover {
+  cursor: pointer;
+}
+
+.list-style-none {
+  list-style-type: none;
+}
+
+.text-white {
+  color: white;
+}
+.text-white:hover {
+  color: rgb(201, 201, 201);
+}
+
+.btn-toggler {
+  background: rgba(0, 0, 0, 0);
+  outline: none;
+  border: 0;
+  font-size: 24px;
+  color: white;
+}
+
 .ml-2 {
   margin-left: 0.5rem;
 }
 
-.bg-usher-blue {
-  background-color: #498ecf;
+.margin-top-n10 {
+  margin-top: -10px;
+}
+
+/* -------zIndex--------- */
+.z-30 {
+  z-index: 3;
+}
+.z-10 {
+  z-index: 1;
+}
+
+.scale-0 {
+  transform: scale(0);
+}
+
+.scale-100 {
+  transform: scale(1);
+}
+
+.innerRing {
+  width: 100vh;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.95);
+}
+
+.tracking-wider {
+  letter-spacing: 5px;
+}
+
+.left-0 {
+  left: 0vh;
+}
+.left-100 {
+  left: 100vh;
 }

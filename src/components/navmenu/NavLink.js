@@ -1,11 +1,9 @@
 import React from "react";
 
-export default function NavLink({ label }) {
+export default function NavLink({ label, onClick }) {
   return (
-    <li className={"nav-item"}>
-      <a href="/" className={`nav-link`}>
-        {label}
-      </a>
+    <li className={"cursor-pointer nav-item list-style-none"} onClick={onClick}>
+      <span className={`nav-link text-white`}>{label}</span>
     </li>
   );
 }
